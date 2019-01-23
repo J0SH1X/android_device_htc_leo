@@ -9,7 +9,7 @@ on init
 
 on fs
     # Mount all partitions
-    # mount_all ./fstab.htcleo
+     mount_all ./fstab.htcleo
 
 	wait /dev/block/mmcblk0p2
 	wait /dev/block/mmcblk0p2
