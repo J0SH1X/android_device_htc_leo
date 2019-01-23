@@ -1,4 +1,4 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
-#define BTM_DEF_LOCAL_NAME "HD2"
+#define BTM_DEF_LOCAL_NAME "HTC HD2"
 #endif
