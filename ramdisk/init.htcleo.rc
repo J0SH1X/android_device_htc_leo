@@ -11,14 +11,14 @@ on fs
     # Mount all partitions
     # mount_all ./fstab.htcleo
 
-    # mount mtd partitions
-	# Mount /system rw first to give the filesystem a chance to save a checkpoint
-    mount yaffs2 mtd@system /system noatime nodiratime
-    #mount yaffs2 mtd@system /system ro remount
-
-    # move cache to data -TYT
-    mount yaffs2 mtd@userdata /data nosuid nodev noatime nodiratime
-    mount yaffs2 mtd@cache /mnt/cache nosuid nodev
+	wait /dev/block/mmcblk0p2
+	wait /dev/block/mmcblk0p2
+	wait /dev/block/mmcblk0p2
+	wait /dev/block/mmcblk0p2
+	wait /dev/block/mmcblk0p3
+	wait /dev/block/mmcblk0p3
+	wait /dev/block/mmcblk0p3
+	wait /dev/block/mmcblk0p3
 
 
 
